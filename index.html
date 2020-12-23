@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Congruence_Game forms</title>
+</head>
+<body>
+    
+    <form class="form">
+        <main >
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname"></main>
+        
+
+            <main>
+                <label>If 2 rectangles have the same area, do they have to be congruent ?</label><br>
+                <input type="text" name="q1" id="q1" >
+                
+            </main>
+
+            <main>
+                <label>Name any one congruency proof for triangles</label><br>
+                <input type="text" name="q2" id="q2" >
+                
+            </main>
+
+            <main>
+                <label>If the 1st circle's radius is 8cm and the 2nd circle's diameter is 8cm are they congruent ?</label><br>
+                <input type="text" name="q3" id="q3">
+                
+            </main>
+
+             <main>
+                <label>Are all squares who have the same perimeter always congruent?</label><br>
+                <input type="text" name="q4" id="q4" >
+                
+            </main>
+
+            <main>
+                <label>Are Pizza Slices Congruent?</label><br>
+                <input type="text" name="q5" id="q5" >
+                
+            </main>
+
+
+
+            <button id="addBtn">Send</button>
+    </form>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCEGH8tYJNlC7xAkc-RrHuQ9TDDpqpIMRQ",
+    authDomain: "e-math-mela.firebaseapp.com",
+    projectId: "e-math-mela",
+    storageBucket: "e-math-mela.appspot.com",
+    messagingSenderId: "587632997385",
+    appId: "1:587632997385:web:b25577776e735fcc47f4d8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="index.js"></script>
+</body>
+</html>
+
